@@ -1,0 +1,14 @@
+{
+    "python.testing.pytestArgs": [
+        "."
+    ],
+    "python.testing.unittestEnabled": false,
+    "python.testing.pytestEnabled": true,
+    "[python]": {
+        "editor.codeActionsOnSave": {
+            "source.fixAll": true,
+            "source.organizeImports": true,
+            "source.organizeImports.ruff": true
+        }
+    },
+}

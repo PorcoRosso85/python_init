@@ -1,0 +1,22 @@
+{
+    "configurations": [
+        {
+            "name": "python ${file}",
+            "type": "python",
+            "request": "launch",
+            "program": "${file}",
+            "console": "integratedTerminal"
+
+        },
+        {
+            "name": "mypy ${file}",
+            "type": "python",
+            "request": "launch",
+            "program": "${workspaceFolder}/.venv/bin/mypy",
+            "args": [
+                "${file}"
+            ],
+            "console": "integratedTerminal"
+        }
+    ]
+}
